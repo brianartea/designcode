@@ -1,20 +1,66 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useEffect, useRef, useState } from "react"
 import styled from "styled-components"
 import { menuData } from "../../data/menuData"
 import MenuButton from "../buttons/MenuButton"
+import MenuTooltip from "../tooltips/MenuTooltip"
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false)
+  const ref = useRef()
+  const tooltipRef = useRef()
+
+  function handleClick(e) {
+    setIsOpen(!isOpen)
+    e.preventDefault()
+  }
+
+  function handleClickOutside(event) {
+    if (
+      ref.current &&
+      !ref.current.contains(event.target) &&
+      !tooltipRef.current.contains(event.target)
+    ) {
+      console.log("Document is clicked")
+      setIsOpen(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside)
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [])
+
   return (
     <Wrapper>
       <Link to="/">
-        <img src="/images/logos/logo.svg" />
+        <img
+          src="/images/logos/logo.svg"
+          alt="Logo"
+          style={{ cursor: "pointer" }}
+        />
       </Link>
-      <MenuWrapper count={menuData.length}>
-        {menuData.map((item, index) => (
-          <MenuButton item={item} key={index} />
-        ))}
+      <MenuWrapper count={menuData.length} ref={ref}>
+        {menuData.map((item, index) =>
+          item.link === "/account" ? (
+            <MenuButton item={item} key={index} onClick={e => handleClick(e)} />
+          ) : (
+            <MenuButton item={item} key={index} />
+          )
+        )}
+        <HamburgerWrapper>
+          <MenuButton
+            item={{ title: "", icon: "/images/icons/hamburger.svg", link: "/" }}
+            onClick={e => handleClick(e)}
+          />
+        </HamburgerWrapper>
       </MenuWrapper>
+      <div ref={tooltipRef}>
+        <MenuTooltip isOpen={isOpen} />
+      </div>
     </Wrapper>
   )
 }
@@ -61,5 +107,13 @@ const MenuWrapper = styled.div`
       display: none;
     }
     grid-template-columns: auto;
+  }
+`
+
+const HamburgerWrapper = styled.div`
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
   }
 `
