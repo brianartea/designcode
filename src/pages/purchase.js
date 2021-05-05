@@ -9,7 +9,7 @@ import styled from "styled-components"
 function SecondPage() {
   return (
     <Layout>
-      <SEO title="Page two" />
+      <SEO title="page-2" />
       <Title>Purchase Page</Title>
       <Description>
         Welcome to purchase page by clicking the purchase button
