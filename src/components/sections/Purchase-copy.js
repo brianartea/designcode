@@ -1,7 +1,7 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
 import MockupAnimation from "../animations/MockupAnimation"
-import WaveBackgroundCourses from "../backgrounds/WaveBackgroundCourses"
+import WaveBackground from "../backgrounds/WaveBackground"
 import HomeButton from "../buttons/HomeButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText, SmallText } from "../styles/TextStyles"
@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <Wrapper>
       <Header />
-      <WaveBackgroundCourses />
+      <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
           <Title>

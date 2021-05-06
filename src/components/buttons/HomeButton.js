@@ -8,7 +8,7 @@ export default function PurchaseButton({ title, subtitle }) {
     <Link to="/">
       <Wrapper>
         <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Icon src="/images/icons/courses.svg" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <TextWrapper>

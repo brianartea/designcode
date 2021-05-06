@@ -5,9 +5,9 @@ export default function WaveBackground() {
   return (
     <Wrapper>
       <Background />
-      <Animation src="/images/animations/squares7.svg" />
+      {/* <Animation src="/images/animations/squares7.svg" /> */}
       <Wave
-        src="/images/waves/hero-wave1.svg"
+        src="/images/waves/course-wave1.svg"
         style={{ top: "100px", filter: "blur(60px)" }}
       />
       <Wave src="/images/waves/hero-wave2.svg" style={{ top: "350px" }} />
@@ -63,7 +63,7 @@ const Animation = styled.img`
   position: absolute;
   width: 1000px;
   height: 1000px;
-  top: -120px;
+  top: -130px;
   left: -100px;
   opacity: 0.5;
 

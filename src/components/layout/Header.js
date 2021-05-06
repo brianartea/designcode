@@ -21,7 +21,7 @@ export default function Header() {
       !ref.current.contains(event.target) &&
       !tooltipRef.current.contains(event.target)
     ) {
-      console.log("Document is clicked")
+      console.log("Thanks for checkin out the website!")
       setIsOpen(false)
     }
   }
@@ -40,7 +40,7 @@ export default function Header() {
         <img
           src="/images/logos/logo.svg"
           alt="Logo"
-          style={{ cursor: "pointer" }}
+          // style={{ cursor: "pointer" }}
         />
       </Link>
       <MenuWrapper count={menuData.length} ref={ref}>
@@ -66,17 +66,26 @@ export default function Header() {
 }
 
 const Wrapper = styled.div`
-  position: absolute;
+  position: fixed;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
+  align-items: center;
   max-width: 1234px;
   height: 44px;
   left: 0px;
   right: 0px;
+
   margin: 0px auto;
   padding: 60px 30px;
-  z-index: 3;
+  z-index: 5;
+
+  img > svg {
+    /* background: url("/images/logos/logo.svg"); */
+    width: 44px;
+    height: 44px;
+    z-index: 10;
+  }
 
   @media (max-width: 768px) {
     top: 30px;
@@ -92,14 +101,19 @@ const MenuWrapper = styled.div`
   gap: 30px;
   grid-template-columns: repeat(${props => props.count}, auto);
   position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
 
   -webkit-box-pack: justify;
   justify-content: flex-end;
+  align-items: center;
   max-width: 1234px;
   left: 0px;
   right: 0px;
   margin: 0px auto;
-  padding: 0px 30px;
+  padding: 10px 30px;
   z-index: 3;
 
   @media (max-width: 768px) {
