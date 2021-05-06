@@ -1,7 +1,7 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
 import MockupAnimation from "../animations/MockupAnimation"
-import WaveBgPurchase from "../backgrounds/WaveBgPurchase"
+import WaveBgTutorials from "../backgrounds/WaveBgTutorials"
 import HomeButton from "../buttons/HomeButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText, SmallText } from "../styles/TextStyles"
@@ -12,11 +12,11 @@ function Courses() {
   return (
     <Wrapper>
       <Header />
-      <WaveBgPurchase />
+      <WaveBgTutorials />
       <ContentWrapper>
         <TextWrapper>
           <Title>
-            Courses
+            Tutorials
             <br /> that show <span>design</span> and code
           </Title>
           <Description>

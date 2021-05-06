@@ -66,7 +66,8 @@ export default function Header() {
 }
 
 const Wrapper = styled.div`
-  position: fixed;
+  position: absolute;
+  /* position: fixed; */
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -101,10 +102,10 @@ const MenuWrapper = styled.div`
   gap: 30px;
   grid-template-columns: repeat(${props => props.count}, auto);
   position: absolute;
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(40px);
   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+  border-radius: 30px; */
 
   -webkit-box-pack: justify;
   justify-content: flex-end;
