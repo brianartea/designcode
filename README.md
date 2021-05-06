@@ -1,12 +1,28 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!--- AUTO-GENERATED-CONTENT:START (STARTER) --->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Made with Gatsby
 </h1>
+
+![](https://designcode.expertdesign.cc/screen1.jpg)
+
+## After mouseover on image
+
+![](https://designcode.expertdesign.cc/screen2.jpg)
+
+##
+
+## Menu
+
+![](https://designcode.expertdesign.cc/screen3.jpg)
+
+##
+
+## It's Live 🚀 Visit here ==> https://brianartea-designcode-two.netlify.app/
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
@@ -20,7 +36,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new designcodeweb https://github.com/mengto/gatsby-starter-designcode
+    gatsby new gatsby-react https://github.com/mengto/gatsby-starter-designcode
     ```
 
 1.  **Start developing.**
