@@ -5,7 +5,7 @@ import WaveBackground from "../backgrounds/WaveBackground"
 import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText, SmallText } from "../styles/TextStyles"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Header from "../layout/Header"
 
 function HeroSection() {

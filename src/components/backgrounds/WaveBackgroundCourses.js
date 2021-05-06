@@ -1,5 +1,5 @@
 import React from "react"
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 
 export default function WaveBackground() {
   return (
@@ -16,20 +16,20 @@ export default function WaveBackground() {
   )
 }
 
-const animateSquare = keyframes`
-    0% {
-      opacity: 0;
-      transform: rotate(180deg);
-    }
-    50% {
-      transform: rotate(0deg);
-      opacity: 0.5;
-    }
-    100% {
-      transform: rotate(180deg);
-      opacity: 0;
-    }
-`
+// const animateSquare = keyframes`
+//     0% {
+//       opacity: 0;
+//       transform: rotate(180deg);
+//     }
+//     50% {
+//       transform: rotate(0deg);
+//       opacity: 0.5;
+//     }
+//     100% {
+//       transform: rotate(180deg);
+//       opacity: 0;
+//     }
+// `
 
 const Wrapper = styled.div`
   position: relative;
@@ -58,22 +58,22 @@ const Background = styled.div`
   z-index: -1;
 `
 
-const Animation = styled.img`
-  animation: ${animateSquare} 5s infinite;
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  top: -130px;
-  left: -100px;
-  opacity: 0.5;
+// const Animation = styled.img`
+//   animation: ${animateSquare} 5s infinite;
+//   position: absolute;
+//   width: 1000px;
+//   height: 1000px;
+//   top: -130px;
+//   left: -100px;
+//   opacity: 0.5;
 
-  @media (min-width: 1920px) {
-    display: none;
-  }
-  @media (min-width: 1591px) {
-    display: contents;
-  }
-  @media (max-width: 1401px) {
-    display: none;
-  }
-`
+//   @media (min-width: 1920px) {
+//     display: none;
+//   }
+//   @media (min-width: 1591px) {
+//     display: contents;
+//   }
+//   @media (max-width: 1401px) {
+//     display: none;
+//   }
+// `

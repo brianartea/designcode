@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     /* background: url("/images/logos/logo.svg"); */
     width: 44px;
     height: 44px;
-    z-index: 10;
+    z-index: 999;
   }
 
   @media (max-width: 768px) {
@@ -114,7 +114,7 @@ const MenuWrapper = styled.div`
   right: 0px;
   margin: 0px auto;
   padding: 10px 30px;
-  z-index: 3;
+  z-index: -1;
 
   @media (max-width: 768px) {
     > a {
