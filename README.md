@@ -1,13 +1,3 @@
-<!--- AUTO-GENERATED-CONTENT:START (STARTER) --->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Made with Gatsby
-</h1>
-
 ![](https://designcode.expertdesign.cc/shots/screen1.jpg)
 
 ## After mouseover on images to the right.
@@ -26,7 +16,9 @@
 
 ![](https://designcode.expertdesign.cc/shots/screen4.jpg)
 
-## Menu for now, I will make that look exellent.
+##
+
+Menu for now, I will make that look exellent.
 
 ![](https://designcode.expertdesign.cc/shots/screen5-menu.jpg)
 
@@ -34,7 +26,7 @@
 
 ## It's Live 🚀 Visit here ==> https://designcode.expertdesign.cc/
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Website made with React and gatsby.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
@@ -49,17 +41,17 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd designcodeweb/
+    cd your-directory/
     gatsby develop
     ```
 
-3.  **Open the source code and start editing!**
-
     Your site is now running at `http://localhost:8000`!
+
+3.  **Open the source code and start editing!**
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `your-directory` in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
