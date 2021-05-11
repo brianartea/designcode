@@ -26,17 +26,33 @@ Menu for now, I will make that look exellent.
 
 ## It's Live 🚀 Visit here ==> https://designcode.expertdesign.cc/
 
-[go](https://designcode.expertdesign.cc/){:target="\_blank" rel="noopener"}
-
-Website made with React and gatsby.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+Website made with React and Gatsby.
 
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Check and see if Node is installed by the command: node -v
+
+If not installed, install node from their website free: https://nodejs.org/
+
+If you haven't installed gatsby CLI here is the command to run in terminal:
+
+`````shell
+    npm install -g gatsby-cli
+    ```
+
+For Mac:
+````shell
+    sudo npm install -g gatsby-cli
+    ```
+
+    In the terminal:
+````shell
+    gatsby new your-directory https://github.com/brianartea/gatsby-starter-designcode.git
+    ```
+
+Open in the folder/directory you just put it in.
 
 2.  **Start developing.**
 
@@ -103,12 +119,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Gatsby Develop
-
-## 💫 Gatsby Build => upload inside public folder to server.
+## 💫 Gatsby Build ==> upload inside public folder to your server in a subdomain, sub folders do not work. If you do not have a server deploy options below.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+
 <!-- AUTO-GENERATED-CONTENT:END -->
+`````
