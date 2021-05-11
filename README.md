@@ -26,6 +26,8 @@ Menu for now, I will make that look exellent.
 
 ## It's Live 🚀 Visit here ==> https://designcode.expertdesign.cc/
 
+<a href="https://designcode.expertdesign.cc/" target="_blank">https://designcode.expertdesign.cc/</a>
+
 Website made with React and gatsby.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
@@ -48,8 +50,6 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Your site is now running at `http://localhost:8000`!
 
 3.  **Open the source code and start editing!**
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
     Open the `your-directory` in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
