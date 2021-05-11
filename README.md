@@ -8,17 +8,27 @@
   Made with Gatsby
 </h1>
 
-![](https://designcode.expertdesign.cc/screen1.jpg)
+![](https://designcode.expertdesign.cc/shots/screen1.jpg)
 
-## After mouseover on image
+## After mouseover on images to the right.
 
-![](https://designcode.expertdesign.cc/screen2.jpg)
+![](https://designcode.expertdesign.cc/shots/screen2.jpg)
 
 ##
 
-## Menu
+![](https://designcode.expertdesign.cc/shots/screen3.jpg)
 
-![](https://designcode.expertdesign.cc/screen3.jpg)
+##
+
+![](https://designcode.expertdesign.cc/shots/screen4.jpg)
+
+##
+
+![](https://designcode.expertdesign.cc/shots/screen4.jpg)
+
+## Menu for now, I will make that look exellent.
+
+![](https://designcode.expertdesign.cc/shots/screen5-menu.jpg)
 
 ##
 
@@ -34,12 +44,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new gatsby-react https://github.com/mengto/gatsby-starter-designcode
-    ```
-
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -48,7 +53,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -106,7 +111,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Deploy
+## 💫 Gatsby Develop
+
+## 💫 Gatsby Build => upload inside public folder to server.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
