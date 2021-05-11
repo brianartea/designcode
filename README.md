@@ -26,7 +26,7 @@ Menu for now, I will make that look exellent.
 
 ## It's Live 🚀 Visit here ==> https://designcode.expertdesign.cc/
 
-<a href="https://designcode.expertdesign.cc/" target="_blank">https://designcode.expertdesign.cc/</a>
+[go](https://designcode.expertdesign.cc/){:target="\_blank" rel="noopener"}
 
 Website made with React and gatsby.
 
