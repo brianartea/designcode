@@ -38,21 +38,13 @@ If not installed, install node from their website free: https://nodejs.org/
 
 If you haven't installed gatsby CLI here is the command to run in terminal:
 
-`````shell
     npm install -g gatsby-cli
-    ```
 
-
-````shell
     For Mac:
     sudo npm install -g gatsby-cli
-    ```
 
-
-````shell
     In the terminal:
     gatsby new your-directory https://github.com/brianartea/gatsby-starter-designcode.git
-    ```
 
 Open in the folder/directory you just put it in.
 
@@ -130,4 +122,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-`````
+
+```
+
+```
