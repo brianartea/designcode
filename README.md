@@ -57,7 +57,7 @@ Open in the folder/directory you just put it in.
     gatsby develop
     ```
 
-    Your site is now running at `http://localhost:8000`!
+    Your site is now running at `http://localhost:8000`
 
 3.  **Open the source code and start editing!**
 
@@ -113,7 +113,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Gatsby Build ==> upload inside public folder to your server in a subdomain, sub folders do not work. If you do not have a server deploy options below.
+## 💫 Gatsby Build ==> upload inside public folder to your server in a subdomain, sub folders do not work with the routing. If you do not have a server deploy options below.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
