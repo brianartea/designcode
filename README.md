@@ -42,13 +42,15 @@ If you haven't installed gatsby CLI here is the command to run in terminal:
     npm install -g gatsby-cli
     ```
 
-For Mac:
+
 ````shell
+    For Mac:
     sudo npm install -g gatsby-cli
     ```
 
-    In the terminal:
+
 ````shell
+    In the terminal:
     gatsby new your-directory https://github.com/brianartea/gatsby-starter-designcode.git
     ```
 
